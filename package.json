@@ -2,8 +2,8 @@
   "name": "book-project",
   "version": "1.0.0",
   "description": "book rest api",
-  "type": "module",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
