@@ -7,10 +7,10 @@ import connectDB from "./config/db.js"
 import authRoutes from './routes/authRoute.js'
 import cors from 'cors'
 import CategoryRoutes from './routes/categoryRoutes.js'
-import productModel from "./models/productModel.js"
+import productModel from "./models/productModel.js";
 import productRoutes from "./routes/productRoutes.js";
-import path from "path"
-import {fileURLToPath} from 'url'
+import path from "path";
+import { fileURLToPath } from 'url';
 
 // configure env
 dotenv.config()
@@ -20,8 +20,8 @@ dotenv.config()
 connectDB()
 
 // es module fix
-const __filename =fileURLToPath(import.meta.url)
-const __dirname=path.dirname(__filename)
+const  __filename =fileURLToPath(import.meta.url)
+const  __dirname=path.dirname(__filename)
 
 // creating rest object 
 const app=express()
