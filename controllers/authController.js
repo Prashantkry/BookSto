@@ -2,7 +2,7 @@ import JWT from "jsonwebtoken"
 // import { Jwt } from "jsonwebtoken"
 import userModel from "../models/userModel.js"
 import orderModel from "../models/orderModel.js"
-import {comparePassword, hashPassword} from "../../book-project/helpers/authHelper.js"
+import {comparePassword, hashPassword} from "./../helpers/authHelper.js"
 export const registerController =async(req,res)=>{
     try{
         const {name,email,password,phone,address,answer}=req.body
