@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run start\" \"npm run book\""
   },
   "keywords": [],
-  "author": "Prashant Kumar | Reddi Sagarika",
+  "author": "Prashant Kumar",
   "license": "BookSto",
   "dependencies": {
     "bcrypt": "^5.1.0",
